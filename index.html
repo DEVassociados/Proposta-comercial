@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-      
+    
+    
 <meta charset="UTF-8">
 
-      <link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FtYWRhXzIiIGRhdGEtbmFtZT0iQ2FtYWRhIDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDU0Mi45MyA0MDUuNzYiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6ICNlNjUzMDA7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgZmlsbDogI2ZmNjcxZDsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPGcgaWQ9IkNhbWFkYV8xLTIiIGRhdGEtbmFtZT0iQ2FtYWRhIDEiPgogICAgPGc+CiAgICAgIDxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iMzEyLjA0IiBjeT0iODMuMzIiIHI9IjcxLjY4Ii8+CiAgICAgIDxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iODkuMzciIHk9IjEyOS40NSIgd2lkdGg9Ijc4LjkyIiBoZWlnaHQ9IjI4NS40NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMwLjIgLTExLjM4KSByb3RhdGUoNDUpIi8+CiAgICAgIDxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iLTEwLjciIHk9Ijg3LjY0IiB3aWR0aD0iMjgxLjI5IiBoZWlnaHQ9IjgwLjY4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjguNTUgLTU0LjQpIHJvdGF0ZSg0NSkiLz4KICAgICAgPHJlY3QgY2xhc3M9ImNscy0yIiB4PSIyMDcuMTIiIHk9IjI2NS44IiB3aWR0aD0iMjAxLjcxIiBoZWlnaHQ9IjgwLjQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDYuNTggLTEyOC4xNCkgcm90YXRlKDQ1KSIvPgogICAgICA8cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjM3OS4xNCIgeT0iMTQ1Ljg0IiB3aWR0aD0iNzkuMzgiIGhlaWdodD0iMjcxLjYyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMjEuODMgLTIxMy42Nykgcm90YXRlKDQ1KSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+">
-
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iQ2FtYWRhXzIiIGRhdGEtbmFtZT0iQ2FtYWRhIDIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDU0Mi45MyA0MDUuNzYiPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuY2xzLTEgewogICAgICAgIGZpbGw6ICNlNjUzMDA7CiAgICAgIH0KCiAgICAgIC5jbHMtMiB7CiAgICAgICAgZmlsbDogI2ZmNjcxZDsKICAgICAgfQogICAgPC9zdHlsZT4KICA8L2RlZnM+CiAgPGcgaWQ9IkNhbWFkYV8xLTIiIGRhdGEtbmFtZT0iQ2FtYWRhIDEiPgogICAgPGc+CiAgICAgIDxjaXJjbGUgY2xhc3M9ImNscy0yIiBjeD0iMzEyLjA0IiBjeT0iODMuMzIiIHI9IjcxLjY4Ii8+CiAgICAgIDxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iODkuMzciIHk9IjEyOS40NSIgd2lkdGg9Ijc4LjkyIiBoZWlnaHQ9IjI4NS40NyIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMjMwLjIgLTExLjM4KSByb3RhdGUoNDUpIi8+CiAgICAgIDxyZWN0IGNsYXNzPSJjbHMtMSIgeD0iLTEwLjciIHk9Ijg3LjY0IiB3aWR0aD0iMjgxLjI5IiBoZWlnaHQ9IjgwLjY4IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgxMjguNTUgLTU0LjQpIHJvdGF0ZSg0NSkiLz4KICAgICAgPHJlY3QgY2xhc3M9ImNscy0yIiB4PSIyMDcuMTIiIHk9IjI2NS44IiB3aWR0aD0iMjAxLjcxIiBoZWlnaHQ9IjgwLjQyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMDYuNTggLTEyOC4xNCkgcm90YXRlKDQ1KSIvPgogICAgICA8cmVjdCBjbGFzcz0iY2xzLTIiIHg9IjM3OS4xNCIgeT0iMTQ1Ljg0IiB3aWR0aD0iNzkuMzgiIGhlaWdodD0iMjcxLjYyIiB0cmFuc2Zvcm09InRyYW5zbGF0ZSgzMjEuODMgLTIxMy42Nykgcm90YXRlKDQ1KSIvPgogICAgPC9nPgogIDwvZz4KPC9zdmc+">
 
 
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -16,12 +16,12 @@
 
 <title>Proposta Comercial DEV.associados</title>
 <meta itemprop="name" content="Proposta Comercial DEV.associados">
-<meta itemprop="description" content="Created with the Heyzine flipbook maker">
+<meta itemprop="description" content="DEV.associados">
 <meta property="og:type" content="website" />
 <meta property="og:title" content="Proposta Comercial DEV.associados" />
-<meta property="og:description" content="Created with the Heyzine flipbook maker" />
+<meta property="og:description" content="DEV.associados" />
 <meta property="og:url" content="https://heyzine.com/flip-book/e9b182452a.html" />
-<link rel="alternate" type="application/json+oembed" href="https://heyzine.com/api1/oembed?url=https%3A%2F%2Fheyzine.com%2Fflip-book%2Fe9b182452a.html&format=json" title="Proposta Comercial DEV.associados" /><meta property="og:image" content="https://cdnc.heyzine.com/files/uploaded/e9b182452adb7b65106d80db51256bc2ba518383.pdf-thumb.jpg" />
+<link rel="alternate" type="application/json+oembed" href="https://heyzine.com/api1/oembed?url=https%3A%2F%2Fheyzine.com%2Fflip-book%2Fe9b182452a.html&format=json" title="Online Flipbook" /><meta property="og:image" content="https://cdnc.heyzine.com/files/uploaded/e9b182452adb7b65106d80db51256bc2ba518383.pdf-thumb.jpg" />
 <meta itemprop="image" content="https://cdnc.heyzine.com/files/uploaded/e9b182452adb7b65106d80db51256bc2ba518383.pdf-thumb.jpg">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image:src" content="https://cdnc.heyzine.com/files/uploaded/e9b182452adb7b65106d80db51256bc2ba518383.pdf-thumb.jpg">
@@ -96,8 +96,8 @@
             "load_page": null,
             "click_zoom": 2,
             "show_prevnext": 1,
-            "show_start": 0,
-            "show_end": 0,
+            "show_start": 1,
+            "show_end": 1,
             "viewer_dir": 0,
             "rtl": 0,
             "arrows": 1,
@@ -169,7 +169,7 @@
 
         <a id="btnNavPanel" class="hz-icon hz-icn-nav" style="display: none; background-image: url('https://cdnc.heyzine.com/flipbook/img/iconset2_6.png')"></a>
         <a id="btnShare" data-stats="share" class="hz-icon-2 hz-icn-share" style="display: none; background-image: url('https://cdnc.heyzine.com/flipbook/img/iconset2_6.png')"></a>
-        <a id="btnDownPdf" href="blob:https://github.com/666218be-be89-4458-9418-35cc13f814af" data-stats="download" target="_blank" class="hz-icon hz-icn-down down-pdf" style="display: none; background-image: url('https://cdnc.heyzine.com/flipbook/img/iconset2_6.png')"></a>
+        <a id="btnDownPdf" href="https://cdnc.heyzine.com/flip-book/pdf/e9b182452adb7b65106d80db51256bc2ba518383.pdf" data-stats="download" target="_blank" class="hz-icon hz-icn-down down-pdf" style="display: none; background-image: url('https://cdnc.heyzine.com/flipbook/img/iconset2_6.png')"></a>
         <a id="btnPrint" data-print="" data-stats="print" class="hz-icon-2 hz-icn-print" style="display: none; background-image: url('https://cdnc.heyzine.com/flipbook/img/iconset2_6.png')"></a>
         <a class="zoom-icon zoom-icon-in hz-icon" data-stats="zoom" style="display: none; background-image: url('https://cdnc.heyzine.com/flipbook/img/iconset2_6.png')"></a>
         <a id="btnFullscreen" data-stats="fullscreen" class="fullscreen-button hz-icon hz-icn-fullscreen-on" onclick="if (typeof toggleFullScreen != 'undefined') { toggleFullScreen(); } return false;"></a>
